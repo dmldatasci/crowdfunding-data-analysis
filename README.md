@@ -35,9 +35,6 @@ The primary limitation of this dataset is that it is unclear where these data or
 
 In the context of the summaries presented in the accompanying Excel workbook, it would be prudent to conduct further graphical analysis. The present discussion relied upon stacked-to-100 bar charts to compare proportional success and failure rates across categories, which is immeasurably more useful than the visualizations shown by default. Furthermore, the present study did not consider geographical trends because it would have required a much more robust analysis, likely with map-based visualizations in order to draw useful conclusions. Additionally, the seasonality trends discussed above should be further explored by visualizing not only aggregated month-over-month data, but rather by considering such trends over a number of years in which the crowdfunding platform has seen similar volumes of activity.
 
-#### Statistical Analysis
-The summary statistics table presented in the accompanying Excel workbook indicates that backer counts for both successful and failed campaigns are heavily right-skewed, with successful campaigns showing a greater number of projects that acquire large numbers of investors, which pulls its mean backer count farther to the right of its median backer count than we see for failed campaigns. In general, the media is a better measure of central tendency for skewed data, because it presents a more accurate picture of where the bulk of the population falls, without being overly influenced by extreme outliers. The higher variability seen in successful campaigns, as suggested above, is to be expected because of the attention that projects widely considered to be a good idea can achieve through viral word of mouth and social media mechanisms. Therefore, it is not surprising that more successful campaigns have huge numbers of backers in comparison to failed campaigns.
-
 ## Crowdfunding Goal Analysis
 - Create a new sheet with 8 columns:
     - `Goal`
@@ -78,9 +75,8 @@ Most people would use the number of campaign backers to assess the success of a 
 
 For gaining an in-depth understanding of campaign backers, evaluate the number of backers of successful and unsuccessful campaigns by creating a summary statistics table.
 
-- Create a new worksheet in your workbook, and create one column for the number of backers of successful campaigns and one column for unsuccessful campaigns.
 
-![]()
+- Create a new worksheet in your workbook, and create one column for the number of backers of successful campaigns and one column for unsuccessful campaigns.
 
 - Use Excel to evaluate the following values for successful campaigns, and then do the same for unsuccessful campaigns:
     - The mean number of backers
@@ -90,6 +86,6 @@ For gaining an in-depth understanding of campaign backers, evaluate the number o
     - The variance of the number of backers
     - The standard deviation of the number of backers
 
-Use your data to determine whether the mean or the median better summarizes the data.
+    ![Summary Statistics](images/summary_statistics.png)
 
-Use your data to determine if there is more variability with successful or unsuccessful campaigns. Does this make sense? Why or why not?
+The summary statistics table presented above indicates that backer counts for both successful and failed campaigns are heavily right-skewed, with successful campaigns showing a greater number of projects that acquire large numbers of investors, which pulls its mean backer count farther to the right of its median backer count than we see for failed campaigns. In general, the media is a better measure of central tendency for skewed data, because it presents a more accurate picture of where the bulk of the population falls, without being overly influenced by extreme outliers. The higher variability seen in successful campaigns, as suggested above, is to be expected because of the attention that projects widely considered to be a good idea can achieve through viral word of mouth and social media mechanisms. Therefore, it is not surprising that more successful campaigns have huge numbers of backers in comparison to failed campaigns.
