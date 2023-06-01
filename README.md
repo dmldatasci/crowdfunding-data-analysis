@@ -9,15 +9,15 @@
 
     ![Formatted Data](images/formatted_data.png)
 
-Create a new sheet with a pivot table that analyzes your initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per category.
+- Create a new sheet with a pivot table that analyzes your initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per category.
+- Create a stacked-column pivot chart that can be filtered by country based on the table that you created.
 
-Create a stacked-column pivot chart that can be filtered by country based on the table that you created.
+    ![Parent Category Analysis](images/parent_category_analysis.png)
 
-Subcategory Stats
+- Create a new sheet with a pivot table that analyzes your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per sub-category.
+- Create a stacked-column pivot chart that can be filtered by country and parent category based on the table that you created.
 
-Create a new sheet with a pivot table that analyzes your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per sub-category.
-
-Create a stacked-column pivot chart that can be filtered by country and parent category based on the table that you created.
+    ![Sub-Category Analysis](images/subcategory_analysis.png)
 
 The dates in the deadline and launched_at columns use Unix timestamps. Fortunately for us, this formulaLinks to an external site. that can be used to convert these timestamps to a normal date.
 
